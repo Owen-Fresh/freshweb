@@ -21,7 +21,7 @@ dialog[closing] {
 @keyframes open {
   0% {opacity: 0%; 
       scale: 0;
-      transform-origin: -5% top;}
+      transform-origin: left top;}
 
   50% {opacity: 100%;}
 
@@ -30,7 +30,7 @@ dialog[closing] {
 
 @keyframes close {
   0% {scale: 1;
-      transform-origin: 50% -50%;}
+      transform-origin: right top;}
 
   50% {opacity: 100%;}
 
@@ -193,7 +193,7 @@ button:hover {
   display: flex;
   justify-content: left;
   align-items: center;
-  width: 624px;
+  width: 100%;
   height: 264px;
   background-color: #e6e6e6;
   box-shadow: inset -2px -2px 2px #000000;
@@ -276,9 +276,9 @@ button:hover {
   display: flex;
   justify-content: left;
   align-items: center;
-  width: 572px;
   height: 56px;
   background-color: #e6e6e6;
+  width: 572px;
   padding: 8px;
 }
 
@@ -307,6 +307,7 @@ button:hover {
   justify-content: left;
   align-items: center;
   color: #fffafa;
+  width: 572px;
   height: 32px;
   padding: 8px;
   text-shadow: 1px 1px 0px #000000;
