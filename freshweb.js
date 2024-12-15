@@ -7,8 +7,16 @@ openWelcome.addEventListener('click', () => {
 })
 
 closeWelcome.addEventListener('click', () => {
-  Welcome.close();
+  Welcome.setAttribute('closing', "");
+  Welcome.addEventListener('animationend', () => {
+    Welcome.removeAttribute('closing');
+    Welcome.close();
+  }, {once:true})
 })
+
+window.onload = function () {
+  Welcome.show();
+}
 
 
 const About = document.querySelector('.About')
@@ -20,7 +28,11 @@ openAbout.addEventListener('click', () => {
 })
 
 closeAbout.addEventListener('click', () => {
-  About.close();
+  About.setAttribute('closing', "");
+  About.addEventListener('animationend', () => {
+    About.removeAttribute('closing');
+    About.close();
+    }, {once:true})
 })
 
 
@@ -33,7 +45,11 @@ openWork.addEventListener('click', () => {
 })
 
 closeWork.addEventListener('click', () => {
-  Work.close();
+  Work.setAttribute('closing', "");
+  Work.addEventListener('animationend', () => {
+    Work.removeAttribute('closing');
+    Work.close();
+    }, {once:true})
 })
 
 
@@ -46,7 +62,11 @@ openWorking.addEventListener('click', () => {
 })
 
 closeWorking.addEventListener('click', () => {
-  Working.close();
+  Working.setAttribute('closing', "");
+  Working.addEventListener('animationend', () => {
+    Working.removeAttribute('closing');
+    Working.close();
+    }, {once:true})
 })
 
 
@@ -59,7 +79,11 @@ openWriting.addEventListener('click', () => {
 })
 
 closeWriting.addEventListener('click', () => {
-  Writing.close();
+  Writing.setAttribute('closing', "");
+  Writing.addEventListener('animationend', () => {
+    Writing.removeAttribute('closing');
+    Writing.close();
+    }, {once:true})
 })
 
 
@@ -72,7 +96,11 @@ openCoin.addEventListener('click', () => {
 })
 
 closeCoin.addEventListener('click', () => {
-  Coin.close();
+  Coin.setAttribute('closing', "");
+  Coin.addEventListener('animationend', () => {
+    Coin.removeAttribute('closing');
+    Coin.close();
+    }, {once:true})
 })
 
 
@@ -85,7 +113,11 @@ openAir.addEventListener('click', () => {
 })
 
 closeAir.addEventListener('click', () => {
-  Air.close();
+  Air.setAttribute('closing', "");
+  Air.addEventListener('animationend', () => {
+    Air.removeAttribute('closing');
+    Air.close();
+    }, {once:true})
 })
 
 
@@ -98,7 +130,11 @@ openBeverage.addEventListener('click', () => {
 })
 
 closeBeverage.addEventListener('click', () => {
-  Beverage.close();
+  Beverage.setAttribute('closing', "");
+  Beverage.addEventListener('animationend', () => {
+    Beverage.removeAttribute('closing');
+    Beverage.close();
+    }, {once:true})
 })
 
 
@@ -111,7 +147,11 @@ openGothic.addEventListener('click', () => {
 })
 
 closeGothic.addEventListener('click', () => {
-  Gothic.close();
+  Gothic.setAttribute('closing', "");
+  Gothic.addEventListener('animationend', () => {
+    Gothic.removeAttribute('closing');
+    Gothic.close();
+    }, {once:true})
 })
 
 
@@ -124,7 +164,11 @@ openSunrise.addEventListener('click', () => {
 })
 
 closeSunrise.addEventListener('click', () => {
-  Sunrise.close();
+  Sunrise.setAttribute('closing', "");
+  Sunrise.addEventListener('animationend', () => {
+    Sunrise.removeAttribute('closing');
+    Sunrise.close();
+    }, {once:true})
 })
 
 
@@ -137,7 +181,11 @@ openLeverless.addEventListener('click', () => {
 })
 
 closeLeverless.addEventListener('click', () => {
-  Leverless.close();
+  Leverless.setAttribute('closing', "");
+  Leverless.addEventListener('animationend', () => {
+    Leverless.removeAttribute('closing');
+    Leverless.close();
+    }, {once:true})
 })
 
 
@@ -150,5 +198,9 @@ openMonopolies.addEventListener('click', () => {
 })
 
 closeMonopolies.addEventListener('click', () => {
-  Monopolies.close();
+  Monopolies.setAttribute('closing', "");
+  Monopolies.addEventListener('animationend', () => {
+    Monopolies.removeAttribute('closing');
+    Monopolies.close();
+    }, {once:true})
 })
