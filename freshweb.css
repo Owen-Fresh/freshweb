@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   background-color: #e6e6e6;
   font-family: Rubik, Arial, Helvetica, sans-serif;
 }
@@ -202,7 +203,7 @@ button:hover {
 
 .Greeting {
   position: absolute;
-  width: 624px;
+  width: 608px;
   top: 48px;
   left: 16px;
   font-size: 20px;
@@ -234,7 +235,7 @@ button:hover {
 
 .About-Text {
   width: 496px;
-  height: 456px;
+  height: 448px;
   background-color: #e6e6e6;
   box-shadow: inset -2px -2px 2px #000000;
   border-radius: 2px;
@@ -243,8 +244,8 @@ button:hover {
 .About-Copy {
   position: absolute;
   width: 456px;
-  top: 64px;
-  left: 32px;
+  top: 48px;
+  left: 16px;
   font-size: 20px;
 }
 
