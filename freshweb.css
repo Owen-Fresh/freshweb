@@ -1,7 +1,10 @@
 body {
-  overflow: hidden;
   background-color: #e6e6e6;
   font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 dialog {
@@ -215,7 +218,7 @@ button:hover {
   top: 10%;
   left: 0%;
   width: 496px;
-  height: 504px;
+  height: 496px;
   background-color: #c3c8cd;
   box-shadow: 8px 8px 1px #000000;
   font-size: 24px;
