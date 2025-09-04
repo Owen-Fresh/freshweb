@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0E8D7;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 800;
+  font-size: 8rem;
+  color: #192280;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #941D12;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #040D1D;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #040D1D;
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #040D1D;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #040D1D;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding: 0 0 0 2rem;
+  gap: 2rem;
+}
+
+nav h2 {
+  padding: 0.25rem 2rem 0.25rem 1rem;
+  border-left-color: #192280;
+  border-left-style: solid;
+  border-left-width: 0.25rem;
+  border-bottom-color: #192280;
+  border-bottom-style: solid;
+  border-bottom-width: 0.25rem;
+}
+
+header .marker {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 1rem 1rem 0rem;
+  margin: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: last baseline;
+  padding-left: 1rem;
+  border-bottom-color: #192280;
+  border-bottom-style: solid;
+  border-bottom-width: 0.25rem;
+}
+
+.body {
+  width: 67%;
+  border-left-color: #192280;
+  border-left-style: solid;
+  border-left-width: 0.25rem;
+}
+
+.body p {
+  padding: 4rem 6rem 0 6rem;
+}
+
+.body .marker {
+  float: right;
+  text-align: right;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  padding: 1rem;
+  border-top-color: #192280;
+  border-top-style: solid;
+  border-top-width: 0.25rem;
+}
