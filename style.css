@@ -3,19 +3,88 @@
 }
 
 body {
+  /* font-family: monospace; */
+  background-color: #F0E8D7;
+  color: #040D1D;
+}
+
+
+/* Typography */
+
+h1 {
+  font-family: "Martian Mono", monospace;
+  font-size: 6rem;
+  font-weight: 800;
+  /* text-transform: uppercase; */
+  color: #192280;
+}
+
+h2 {
+  font-family: "Martian Mono", monospace;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h3 {
   font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #941D12;
 }
 
 .header {
   display: flex;
-  padding: 2rem;
-  gap: 1rem;
+  align-items: baseline;
+  padding: 0rem;
 }
 
 .nav ul {
   display: flex;
-  gap: 2rem;
-  padding: 1rem;
+  justify-content: center;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+.marker {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: 2px solid #192280;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.5rem;
 }
 
 
@@ -28,7 +97,7 @@ body {
 }
 
 .body {
-  padding: 4rem;
+  padding: 2rem 2rem 2rem 4rem;
   width: 75%;
 }
 
@@ -38,6 +107,20 @@ body {
 .project {
   display: flex;
   padding: 1rem 0 0.5rem 2rem;
+  gap: 1rem;
+  height: 50%;
+}
+
+.project-content {
+  width: 50%;
+}
+
+.project-content2 {
+  width: 15%;
+}
+
+.project-content3 {
+  width: 25%;
 }
 
 
