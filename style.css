@@ -15,7 +15,7 @@ h1 {
   font-family: "Martian Mono", monospace;
   font-size: 6rem;
   font-weight: 800;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: #192280;
 }
 
@@ -47,6 +47,7 @@ p {
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.25;
 }
 
 a {
@@ -59,32 +60,51 @@ a {
 .header {
   display: flex;
   align-items: baseline;
-  padding: 0rem;
+  padding: 2rem 0 0 0;
 }
 
 .nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 li {
   padding: 0.5rem;
+  width: 100%;
+}
+
+.nav a {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .marker {
   display: flex;
   justify-content: space-between;
+  padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
 hr {
   border: 2px solid #192280;
 }
 
+main {
+  padding-bottom: 4rem;
+}
+
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F0E8D7;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 0.5rem;
+  border-top: 4px solid #192280;
 }
 
 
@@ -97,8 +117,8 @@ footer {
 }
 
 .body {
-  padding: 2rem 2rem 2rem 4rem;
-  width: 75%;
+  padding: 4rem 4rem 4rem 6rem;
+  width: 67%;
 }
 
 
@@ -109,6 +129,27 @@ footer {
   padding: 1rem 0 0.5rem 2rem;
   gap: 1rem;
   height: 50%;
+}
+
+.project-details {
+  width: 33%;
+}
+
+.project-details h3 {
+  padding-bottom: 0.5rem;
+}
+
+.project-details h4 {
+  padding-bottom: 1rem;
+}
+
+.project-details a {
+  font-size: 1rem;
+}
+
+.project-details p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .project-content {
@@ -129,4 +170,20 @@ footer {
 .copy {
   padding: 4rem;
   width: 75%;
+}
+
+
+/* pseudo-classes */
+
+.nav a:hover {
+  color: #F0E8D7;
+  text-decoration: underline;
+}
+
+li:hover {
+  background-color: #192280;
+}
+
+.nav a:active {
+  color: #192280;
 }
