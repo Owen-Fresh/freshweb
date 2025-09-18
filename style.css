@@ -3,7 +3,7 @@
 }
 
 body {
-  /* font-family: monospace; */
+  font-family: monospace;
   background-color: #F0E8D7;
   color: #040D1D;
 }
@@ -81,6 +81,57 @@ li {
   text-transform: uppercase;
 }
 
+.hamburger-icon {
+  font-size: 2.5rem;
+  color: #040D1D;
+  display: none;
+}
+
+.mobile-nav-container {
+  background-color: #F0E8D7;
+  font-size: 1.5rem;
+  
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 6rem;
+  
+  display: none;
+
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-nav li a {
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.close-button {
+  font-size: 2rem;
+  transition: all 500ms;
+  color: #040D1D;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+}
+
+
 .marker {
   display: flex;
   justify-content: space-between;
@@ -117,7 +168,7 @@ footer {
 }
 
 .body {
-  padding: 4rem 4rem 4rem 6rem;
+  padding: 4rem 4rem 0 6rem;
   width: 67%;
 }
 
@@ -126,7 +177,7 @@ footer {
 
 .project {
   display: flex;
-  padding: 1rem 0 0.5rem 2rem;
+  padding: 1rem 1rem 0.5rem 2rem;
   gap: 1rem;
   height: 50%;
 }
@@ -164,7 +215,6 @@ footer {
   width: 25%;
 }
 
-
 /* About */
 
 .copy {
@@ -186,4 +236,58 @@ li:hover {
 
 .nav a:active {
   color: #192280;
+}
+
+
+/* media queries */
+
+@media (max-width: 640px) {
+
+  h2 {
+    font-size: 1.5rem;
+    padding-left: 0.25rem;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .body {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: inline;
+    padding: 1rem;
+  }
+
+  .project {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .project-details {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .project-content, .project-content-2, .project-content-3 {
+    width: 100%;
+  }
+
+  .copy {
+    padding: 2rem;
+    width: 100%;
+  }
+  
 }
