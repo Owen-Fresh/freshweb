@@ -12,7 +12,7 @@ body {
 /* Typography */
 
 h1 {
-  font-family: "Martian Mono", monospace;
+  font-family: "M PLUS 1 Code", monospace;
   font-size: 6rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -20,38 +20,38 @@ h1 {
 }
 
 h2 {
-  font-family: "Martian Mono", monospace;
+  font-family: "M PLUS 1 Code", monospace;
   font-size: 2rem;
   font-weight: 500;
 }
 
 h3 {
-  font-family: monospace;
+  font-family: "M PLUS 1 Code", monospace;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
 h4 {
-  font-family: sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 1rem;
   font-weight: 500;
 }
 
 h6 {
-  font-family: sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 0.75rem;
   font-weight: 200;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25;
 }
 
 a {
-  font-family: monospace;
+  font-family: "M PLUS 1 Code", monospace;
   font-size: 1.5rem;
   font-weight: 400;
   color: #941D12;
