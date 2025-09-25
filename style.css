@@ -57,6 +57,9 @@ a {
   color: #941D12;
 }
 
+
+/* Universal Content */
+
 .header {
   display: flex;
   align-items: baseline;
@@ -131,7 +134,6 @@ li {
   padding: 2rem;
 }
 
-
 .marker {
   display: flex;
   justify-content: space-between;
@@ -181,6 +183,12 @@ footer {
   gap: 1rem;
   height: 50%;
 }
+
+/* Note for code review: the following is probably the 
+weakest area and is deeply in need of refinement. The 
+mobile version of this layout is not as good as I want it 
+to be, I just haven't figured out the optimal solution for 
+arranging them yet. */
 
 .project-details {
   width: 33%;
