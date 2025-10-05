@@ -47,7 +47,7 @@ p {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 a {
@@ -226,10 +226,20 @@ arranging them yet. */
 /* About */
 
 .copy {
-  padding: 4rem;
+  padding: 4rem 0 0 4rem;
   width: 75%;
 }
 
+/* Process */
+
+.cans {
+  display: flex;
+}
+
+.cans img {
+  width: 33%;
+  height: auto;
+}
 
 /* pseudo-classes */
 
