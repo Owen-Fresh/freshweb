@@ -170,7 +170,7 @@ footer {
 }
 
 .body {
-  padding: 4rem 4rem 0 6rem;
+  padding: 2rem 0 0 2rem;
   width: 67%;
 }
 
@@ -226,7 +226,7 @@ arranging them yet. */
 /* About */
 
 .copy {
-  padding: 4rem 0 0 4rem;
+  padding: 2rem 0 0 2rem;
   width: 75%;
 }
 
@@ -239,6 +239,15 @@ arranging them yet. */
 .cans img {
   width: 33%;
   height: auto;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+}
+
+.process-a {
+  padding-left: 0.25rem;
 }
 
 /* pseudo-classes */
